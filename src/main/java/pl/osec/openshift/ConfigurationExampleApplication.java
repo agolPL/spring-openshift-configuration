@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-class ConfigurationExampleApplication {
+public class ConfigurationExampleApplication {
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(ConfigurationExampleApplication.class);
